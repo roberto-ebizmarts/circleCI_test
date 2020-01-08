@@ -2,8 +2,8 @@ version: 2.1
 jobs:
   build_php:
     docker:
-      - image: circleci/php:latest
+      - image: circleci/node:latest
     steps:
       - run:
           name: get PHP version
-          command: php -v
+          command: node -v
