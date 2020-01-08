@@ -1,6 +1,6 @@
 version: 2.1
 jobs:
-  build5:
+  phpimage:
     docker:
       - image: circleci/node:latest
     steps:
