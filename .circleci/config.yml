@@ -7,3 +7,11 @@ jobs:
       - run:
           name: get PHP version
           command: node -v
+          
+  test:
+    docker:
+      - image: circleci/node:lts
+    steps:
+      - run:
+          name: get PHP version
+          command: node -v
