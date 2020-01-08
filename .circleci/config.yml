@@ -1,6 +1,6 @@
 version: 2.1
 jobs:
-  build_php:
+  build:
     docker:
       - image: circleci/node:latest
     steps:
