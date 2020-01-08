@@ -13,9 +13,9 @@ jobs:
           
   build_php:
     docker:
-      - image: circleci/php
+      - image: circleci/node:4.8.2
     steps:
       - checkout # check out the code in the project directory
       - run:
           name: get PHP version
-          command: php -v
+          command: node -v
